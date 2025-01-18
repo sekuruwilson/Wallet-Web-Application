@@ -7,6 +7,8 @@ interface Props {
   // any props that come into the component
 }
 
+
+
 function CheckRole({ children, roles, ...props }: Props) {
   //   const { user } = useContext(UserContext);
   const user = {
